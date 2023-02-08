@@ -1,0 +1,125 @@
+img {
+    width: 100%;
+}
+
+
+/*------ HEADER done------*/
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+header a {
+    font-size: 1.9em;
+    font-weight: 750;
+    margin-left: 10%;
+    text-decoration: none;
+    color: black;
+}
+.nav-bar {
+    font-weight: 500;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 25%;
+    margin-top: 20px;
+
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.nav-bar a {
+    color: rgb(187, 183, 183);
+    text-decoration: none;
+}
+.nav-link {
+    display: inline-block;
+    margin-left: 20px;  
+}
+
+
+
+/*------ CAROUSEL------*/
+
+
+
+
+
+/*------  WIDGETS done------*/ 
+.widgets {
+    height: 300px;
+    text-align: center;
+    color: white;
+    background-color: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+.icon-glass,
+.icon-star,
+.icon-heart {
+    border: 3px solid white;
+    border-radius: 30px;
+
+    font-size: 15px;
+    padding: 15px;
+}
+.align-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*------  CONTENT done------*/ 
+.projects {
+    margin-top: 70px;
+}
+.blog-articles {
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+.blog-articles img {
+    height: 160px;
+    width: 100%;
+}
+
+
+
+/*------ BOTTOM done------*/ 
+#bottom {
+    color: rgb(192, 188, 188);
+    background-color: rgb(59, 59, 59);
+    border-top: 5px solid rgb(237, 86, 75);
+}
+#bottom ul {
+    list-style: none;
+    padding: 0;
+}
+#bottom a {
+    font-size: 0.9em;
+    color: rgb(96, 96, 96);
+    text-decoration: none;
+    border-bottom: 2px dotted;
+    padding-bottom: 3px;
+}
+#bottom p {
+    color: rgb(96, 96, 96);
+
+}
+#bottom h6 {
+    margin-bottom: 25px;
+}
+
+
+/*------ FOOTER done------*/
+footer {
+    display: flex;
+    align-items: center;
+    height: 110px;
+    color: rgb(192, 188, 188);
+    background-color: rgb(41, 41, 41);
+    padding-left: 90px;
+}
